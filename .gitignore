@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Models and data
+models/checkpoints/*
+models/experiments/*
+!models/.gitkeep
+data/raw/*
+data/processed/*
+data/interim/*
+!data/*/.gitkeep
+
+# Logs
+logs/
+*.log
+
+# Environment variables
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Results
+results/figures/*
+results/metrics/*
+results/generated_text/*
+!results/*/.gitkeep

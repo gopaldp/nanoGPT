@@ -1,0 +1,31 @@
+# Core ML Libraries
+torch>=2.0.0
+transformers>=4.30.0
+numpy>=1.21.0
+pandas>=1.5.0
+
+# Data Processing
+tiktoken
+datasets
+tokenizers
+
+# Visualization and Logging
+matplotlib>=3.5.0
+seaborn>=0.11.0
+tensorboard>=2.10.0
+wandb
+
+# Development Tools
+jupyter
+ipykernel
+tqdm
+python-dotenv
+
+# Testing
+pytest>=7.0.0
+pytest-cov
+
+# Utilities
+pyyaml
+click
+rich
