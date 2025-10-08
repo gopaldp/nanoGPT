@@ -1,0 +1,28 @@
+Metadata-Version: 2.4
+Name: llm-project
+Version: 0.1.0
+Summary: A small-scale LLM implementation for learning
+Author: Your Name
+Author-email: your.email@example.com
+Requires-Python: >=3.8
+Requires-Dist: torch>=2.0.0
+Requires-Dist: transformers>=4.30.0
+Requires-Dist: numpy>=1.21.0
+Requires-Dist: pandas>=1.5.0
+Requires-Dist: tiktoken
+Requires-Dist: datasets
+Requires-Dist: matplotlib>=3.5.0
+Requires-Dist: tqdm
+Requires-Dist: pyyaml
+Provides-Extra: dev
+Requires-Dist: pytest>=7.0.0; extra == "dev"
+Requires-Dist: pytest-cov; extra == "dev"
+Requires-Dist: jupyter; extra == "dev"
+Requires-Dist: black; extra == "dev"
+Requires-Dist: flake8; extra == "dev"
+Dynamic: author
+Dynamic: author-email
+Dynamic: provides-extra
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary

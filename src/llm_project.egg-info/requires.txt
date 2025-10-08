@@ -1,0 +1,16 @@
+torch>=2.0.0
+transformers>=4.30.0
+numpy>=1.21.0
+pandas>=1.5.0
+tiktoken
+datasets
+matplotlib>=3.5.0
+tqdm
+pyyaml
+
+[dev]
+pytest>=7.0.0
+pytest-cov
+jupyter
+black
+flake8
